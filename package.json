@@ -20,6 +20,13 @@
   },
   "homepage": "https://github.com/AngelaDiaFazio/UX-Final",
   "dependencies": {
+    "bower": "^1.3.12",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-sass": "^0.16.0",
+    "node-sass": "^1.0.1"
+  },
+  "devDependencies": {
     "grunt": "^0.4.5"
   }
 }

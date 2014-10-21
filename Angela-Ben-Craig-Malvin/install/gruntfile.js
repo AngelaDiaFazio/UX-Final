@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+  module.exports = function(grunt) {
   grunt.initConfig({
     sass: {
       dist: {
@@ -9,7 +9,7 @@ module.exports = function(grunt) {
     },
     watch: {
       source: {
-        files: ['sass/**/*.scss', 'views/**/*.html'],
+        files: ['sass/**/*.scss', 'views/**/*.jade'],
         tasks: ['sass'],
         options: {
           livereload: true, // needed to run LiveReload

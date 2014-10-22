@@ -25,3 +25,28 @@ h6 {
 h1, h2, h3, h4, h5, h6 {
   font: $primary-font;
 }
+
+p {
+  font: $secondary-font;
+  font-size: 1em;
+}
+
+.helvetica {
+  font-family: $primary-font;
+  &-italic {
+    font-style: italic;
+  }
+  &-bold {
+    font-weight: bold;
+  }
+}
+
+.openSans {
+  font-family: $secondary-font;
+  &-italic {
+    font-style: italic;
+  }
+  &-bold {
+    font-weight: bold;
+  }
+}

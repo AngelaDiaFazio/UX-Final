@@ -31,33 +31,45 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* Base */
 html {
-  color: #434545;
-  margin: 0 auto;
-  font-family: Optima, sans-serif;
-  font-size: 1em; }
-
-p {
-  font-family: "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  color: #664C4B;
-  font-size: 1.2rem; }
-
-.hidden {
-  display: none; }
+  font-size: 10px;
+  font-family: helvetica, sans-serif, 'Open Sans', sans-serif; }
 
 h1 {
-  font: 100% Optima, sans-serif;
-  color: #2EE0AE; }
-  h1 p {
-    color: #434545;
-    font-family: "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; }
+  font-size: 6.854em; }
 
-a {
-  color: #2EE0AE; }
+h2 {
+  font-size: 4.236em; }
 
-.by-line {
-  font-size: 1.3em;
-  color: #664C4B;
-  margin-left: 10px;
-  padding: 1rem 0 0.5rem 0; }
+h3 {
+  font-size: 2.618em; }
+
+h4 {
+  font-size: 1.618em; }
+
+h5 {
+  font-size: 0.707em; }
+
+h6 {
+  font-size: 0.5em; }
+
+h1, h2, h3, h4, h5, h6 {
+  font: helvetica, sans-serif; }
+
+p {
+  font: 'Open Sans', sans-serif;
+  font-size: 1em; }
+
+.helvetica {
+  font-family: helvetica, sans-serif; }
+  .helvetica-italic {
+    font-style: italic; }
+  .helvetica-bold {
+    font-weight: bold; }
+
+.openSans {
+  font-family: 'Open Sans', sans-serif; }
+  .openSans-italic {
+    font-style: italic; }
+  .openSans-bold {
+    font-weight: bold; }

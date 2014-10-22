@@ -50,8 +50,8 @@ router.get('/inputfields', function(req, res) {
   res.render('inputfields', { title: 'Express' });
 });
 
-router.get('/ordered', function(req, res) {
-  res.render('ordered', { title: 'Express' });
+router.get('/lists', function(req, res) {
+  res.render('lists', { title: 'Express' });
 });
 
 router.get('/paragraph', function(req, res) {

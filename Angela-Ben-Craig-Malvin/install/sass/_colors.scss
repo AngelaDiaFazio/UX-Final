@@ -1,19 +1,38 @@
 
+.primary-color {
+  color: $primary-font;
+
+ }
+
+.secondary-color {
+  color: $secondary-color
+ }
+
+.tertiary-color {
+  color: $tertiary-color
+ }
+
+.quarternary-color {
+  color: $quarternary-color
+ }
+
+.quinary-color {
+  color: $quinary-color
+ }
+
 .sg-swatch {
   width: 100%;
   height: 4em;
   margin-bottom: 0.2em;
+  background-color: $primary-color;
 }
 
 .sg-label {
  line-height: 1;
 }
 
-$primary-color: #363535;
-$secondary-color: #a6a271;
-$tertiary-color: #ed5642;
-$quarternary-color: #aacaf1;
-$quinary-color: #eae49f;
+
+
 
 // .site-header {
 //   @include swatch-format(12px, verdana, red);

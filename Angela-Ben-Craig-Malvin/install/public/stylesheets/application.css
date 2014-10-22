@@ -31,33 +31,51 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* Base */
-html {
-  color: #434545;
-  margin: 0 auto;
-  font-family: Optima, sans-serif;
-  font-size: 1em; }
-
-p {
-  font-family: "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  color: #664C4B;
-  font-size: 1.2rem; }
-
-.hidden {
-  display: none; }
-
 h1 {
-  font: 100% Optima, sans-serif;
-  color: #2EE0AE; }
-  h1 p {
-    color: #434545;
-    font-family: "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; }
+  font-size: 6.854em; }
 
-a {
-  color: #2EE0AE; }
+h2 {
+  font-size: 4.236em; }
 
-.by-line {
-  font-size: 1.3em;
-  color: #664C4B;
-  margin-left: 10px;
-  padding: 1rem 0 0.5rem 0; }
+h3 {
+  font-size: 2.618em; }
+
+h4 {
+  font-size: 1.618em; }
+
+h5 {
+  font-size: 0.707em; }
+
+h6 {
+  font-size: 0.5em; }
+
+h1, h2, h3, h4, h5, h6 {
+  font: Helvetica, sans-serif; }
+
+html {
+  font-size: 10px;
+  font-family: Helvetica, sans-serif; }
+
+.primary-color {
+  color: Helvetica, sans-serif; }
+
+.secondary-color {
+  color: #a6a271; }
+
+.tertiary-color {
+  color: #ed5642; }
+
+.quarternary-color {
+  color: #aacaf1; }
+
+.quinary-color {
+  color: #eae49f; }
+
+.sg-swatch {
+  width: 100%;
+  height: 4em;
+  margin-bottom: 0.2em;
+  background-color: #363535; }
+
+.sg-label {
+  line-height: 1; }

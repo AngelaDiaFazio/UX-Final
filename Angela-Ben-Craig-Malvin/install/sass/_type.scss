@@ -1,5 +1,4 @@
-h1 {
-  font: 100% $font-stack;
+h1{
   font-size: 6.854em;
 }
 
@@ -21,4 +20,8 @@ h5 {
 
 h6 {
   font-size: 0.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font: $primary-font;
 }

@@ -22,6 +22,10 @@ router.get('/colors', function(req, res) {
   res.render('colors', { title: 'Express' });
 });
 
+router.get('/fonts', function(req, res) {
+  res.render('fonts', { title: 'Express' });
+});
+
 router.get('/error', function(req, res) {
   res.render('error', { title: 'Express' });
 });

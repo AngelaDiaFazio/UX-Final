@@ -82,33 +82,40 @@ html {
 .center {
   text-align: center; }
 
+.sg-colors {
+  border: 4em;
+  text-align: center;
+  border-top: 3em; }
+
+.sg-label {
+  line-height: 1; }
+
 html {
   font-size: 16px;
   font-family: helvetica, sans-serif, 'Open Sans', sans-serif; }
 
 .primary-color {
-  color: helvetica, sans-serif; }
+  background-color: #363535;
+  color: white; }
 
 .secondary-color {
-  color: #a6a271; }
+  background-color: #a6a271; }
 
 .tertiary-color {
-  color: #ed5642; }
+  background-color: #ed5642; }
 
 .quarternary-color {
-  color: #aacaf1; }
+  background-color: #aacaf1; }
 
 .quinary-color {
-  color: #eae49f; }
+  background-color: #eae49f; }
 
 .sg-swatch {
-  width: 100%;
-  height: 4em;
+  float: left;
+  width: 10em;
+  height: 9em;
   margin-bottom: 0.2em;
-  background-color: #363535; }
-
-.sg-label {
-  line-height: 1; }
+  margin-left: 1em; }
 
 @font-face {
   font-family: 'icomoon';

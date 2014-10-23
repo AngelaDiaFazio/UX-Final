@@ -3,7 +3,8 @@ extends layout
 block content
   a.goback(href="/") Go Back
   h1.sg-head Checklists &amp; Radio Buttons
-  h2.sub-title.sg-head Radio Buttons:
+  h3 Radio Buttons
+  div.text
     br
     input(name="radio" type="radio" class="radio")
     Tick Content
@@ -19,32 +20,35 @@ block content
     br
 
 
-  h2.sub-title Checklist:
+  h3 Checklist
+  div.text
+
+    input(type="checkbox")
+    Tick Content
     br
     input(type="checkbox")
-    Tick.sub-title Content
+    Tick Content
     br
     input(type="checkbox")
-    Tick.sub-title Content
+    TickContent Content
     br
     input(type="checkbox")
-    Tick.sub-title Content
-    br
-    input(type="checkbox")
-    Tick.sub-title Content
+    Tick Content
     br
 
-  hr
 
-  h2.sub-title Radio Buttons Code-Jade:
-    br
+
+  h3 Radio Buttons Code - Jade
+  div.text.jade
+
     <pre>input(name="radio" type="radio" class="radio")
     br
     <pre>Tick Content
 
-  hr
 
-  h2.sub-title Checklist Code-Jade:
+
+  h3 Checklist Code - Jade
+  div.text.jade
     br
     <pre>input(type="checkbox")
     br

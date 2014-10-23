@@ -4,36 +4,37 @@ block content
   a.goback(href="/") Go Back
   h1.sg-head.list Lists
 
-  h2.title.sg-head Ordered List
-  ol.list
-    li.list This is an ordered list item
-    li.list This is an ordered list item
-    ol.list
-      li.list This is a nested ordered list item
-      li.list This is a nested ordered list item
+  h2 Ordered List
+  ol.text
+    li This is an ordered list item
+    li This is an ordered list item
+    ol
+      li This is a nested ordered list item
+      li This is a nested ordered list item
 
-  h2.title.sg-head.list Unordered List
-  ul.list
+  h2 Unordered List
+  ul.text
     li This is an unordered list item
     li This is an unordered list item
     ul
       li This is a nested unordered list item
       li This is a nested unordered list item
 
-  h2.title Ordered List Code-Jade:
+  h3 Ordered List Code - Jade
+  div.jade
+    pre ol
+    pre   li This is an ordered list item
+    pre   li This is an ordered list item
+    pre     ol
+    pre       li This is a nested unordered list item
+    pre       li This is a nested unordered list item
+    hr
 
-  pre ol
-  pre   li This is an ordered list item
-  pre   li This is an ordered list item
-  pre     ol
-  pre       li This is a nested unordered list item
-  pre       li This is a nested unordered list item
-  hr
-
-  h2.title Unordered List Code-Jade:
-  pre ul
-  pre   li This is an ordered list item
-  pre   li This is an ordered list item
-  pre     ul
-  pre       li This is a nested ordered list item
-  pre       li This is a nested ordered list item
+  h3 Unordered List Code - Jade
+  div.jade
+    pre ul
+    pre   li This is an ordered list item
+    pre   li This is an ordered list item
+    pre     ul
+    pre       li This is a nested ordered list item
+    pre       li This is a nested ordered list item

@@ -1,69 +1,69 @@
 extends layout
 
 block content
-<<<<<<< HEAD
 
-  h1.title Buttons
-  hr
-  h3 Primary Button
+  a.goback(href="/") Go Back
+
+  h1.sg-head Buttons
+  h2 Primary Button
   br
   button (Submit/Enter)
   br
   br
-  h3 Secondary Button
+  h2 Secondary Button
   br
   button.secondary NEXT
   br
   br
-  h3 Text Button
+  h2 Text Button
   br
   button.astext Click Me!
   br
   hr
   br
-  h4 Button Jade:
+  h3 Button Jade:
   br
-  pre button (Submit/Enter)
+  div.jade.text
+    pre button (Submit/Enter)
+    br
+    pre button.secondary NEXT
+    br
+    pre button.astext Click Me!
+    br
+    br
+  h3 Button CSS:
   br
-  pre button.secondary NEXT
-  br
-  pre button.astext Click Me!
-  br
-  br
-  h4 Button CSS:
-  br
-  pre button {
-  pre width: 15rem;
-  pre height: 3rem;
-  pre background-color: $tertiary-color ;
-  pre font-size: 1.5rem;
-  pre font-family: inherit;
-  pre border-style: none;
-  pre color: white;
-  pre outline: 0;
-  pre }
-  br
-  pre button:hover {
-  pre color: $primary-color;
-  pre }
-  br
-  pre button.secondary {
-  pre background-color: $quarternary-color ;
-  pre }
-  br
-  pre .astext {
-  pre color: black;
-  pre background:none;
-  pre border:none;
-  pre margin:0;
-  pre padding:0;
-  pre font-style: italic;
-  pre }
-  br
-  pre .astext:hover {
-  pre color: $quarternary-color;
-  pre }
-=======
-  a.goback(href="/") Go Back
-  h1.title.sg-head Buttons
->>>>>>> cee896d9ca60f9caaeaedb1c2b091be820509525
+  div.jade.text
+    pre button {
+    pre width: 15rem;
+    pre height: 3rem;
+    pre background-color: $tertiary-color ;
+    pre font-size: 1.5rem;
+    pre font-family: inherit;
+    pre border-style: none;
+    pre color: white;
+    pre outline: 0;
+    pre }
+    br
+    pre button:hover {
+    pre color: $primary-color;
+    pre }
+    br
+    pre button.secondary {
+    pre background-color: $quarternary-color ;
+    pre }
+    br
+    pre .astext {
+    pre color: black;
+    pre background:none;
+    pre border:none;
+    pre margin:0;
+    pre padding:0;
+    pre font-style: italic;
+    pre }
+    br
+    pre .astext:hover {
+    pre color: $quarternary-color;
+    pre }
+
+

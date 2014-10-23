@@ -6,10 +6,6 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/blockquote', function(req, res) {
-  res.render('blockquote', { title: 'Express' });
-});
-
 router.get('/buttons', function(req, res) {
   res.render('buttons', { title: 'Express' });
 });

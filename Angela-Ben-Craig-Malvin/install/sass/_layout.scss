@@ -6,7 +6,12 @@ html {
   text-align: center;
 }
 
-
+.goback {
+  text-align: right;
+  display: block;
+  right: 1rem;
+  position: fixed;
+}
 
 .sg-colors {
   border: 4em;

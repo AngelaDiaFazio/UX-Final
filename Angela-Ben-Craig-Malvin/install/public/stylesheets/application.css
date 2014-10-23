@@ -1,57 +1,33 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
 h1 {
-  font-size: 3.998em;
+  font-size: 3.998rem;
   padding-bottom: 3rem; }
 
 h2 {
-  font-size: 2.827em; }
+  font-size: 2.827rem;
+  padding-bottom: 2rem; }
 
 h3 {
-  font-size: 1.999em; }
+  font-size: 1.999rem;
+  padding-bottom: 1rem; }
 
 h4 {
-  font-size: 1.414em; }
+  font-size: 1.414rem;
+  padding-bottom: 1rem; }
 
 h5 {
-  font-size: 1em; }
+  font-size: 1rem;
+  padding-bottom: 0.8rem; }
 
 h6 {
-  font-size: 0.707em; }
+  font-size: 0.707rem;
+  padding-bottom: 0.5rem; }
 
 h1, h2, h3, h4, h5, h6 {
-  font: helvetica, sans-serif; }
+  font: helvetica, sans-serif;
+  text-decoration: none; }
+
+a {
+  text-decoration: none; }
 
 .helvetica {
   font-family: helvetica, sans-serif; }
@@ -76,34 +52,65 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 1.6rem;
   padding-bottom: 1rem; }
 
+.list {
+  font-size: 4rem;
+  margin: 1rem; }
+
+.index {
+  font-size: 2rem;
+  text-align: left;
+  height: 3rem; }
+
 html {
   margin: 20px 20px; }
 
 .center {
   text-align: center; }
 
+.goback {
+  text-align: right;
+  display: block;
+  right: 1rem;
+  position: fixed; }
+
+.sg-colors {
+  border: 4em;
+  text-align: center;
+  border-top: 3em; }
+
+.sg-label {
+  line-height: 1; }
+
+.sg-head {
+  border-bottom: 1px solid black;
+  margin-bottom: 1em;
+  text-align: left; }
+
 html {
   font-size: 16px;
-  font-family: helvetica, sans-serif, 'Open Sans', sans-serif; }
+  font-family: helvetica, sans-serif, 'Open Sans', sans-serif;
+  text-decoration: none; }
 
 .primary-color {
-  color: helvetica, sans-serif; }
+  background-color: #363535;
+  color: white; }
 
 .secondary-color {
-  color: #a6a271; }
+  background-color: #a6a271; }
 
 .tertiary-color {
-  color: #ed5642; }
+  background-color: #ed5642; }
 
 .quarternary-color {
-  color: #aacaf1; }
+  background-color: #aacaf1; }
 
 .quinary-color {
-  color: #eae49f; }
+  background-color: #eae49f; }
 
 .sg-swatch {
-  width: 100%;
-  height: 4em;
+  float: left;
+  width: 10em;
+  height: 9em;
   margin-bottom: 0.2em;
   background-color: #363535; }
 
@@ -136,3 +143,20 @@ button.secondary {
 
 .astext:hover {
   color: #aacaf1; }
+
+img {
+  display: block;
+  background-color: #d2d2d2; }
+
+.square {
+  width: 37.5rem;
+  height: 37.5rem; }
+
+.landscape4x3 {
+  width: 37.5rem;
+  height: 28.125rem; }
+
+.landscape16x9 {
+  width: 80rem;
+  height: 45rem; }
+

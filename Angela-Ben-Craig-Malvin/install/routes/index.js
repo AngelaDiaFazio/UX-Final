@@ -2,14 +2,9 @@ var express = require('express');
 var router = express.Router();
 
 
-
 /* GET home page. */
 router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
-});
-
-router.get('/blockquote', function(req, res) {
-  res.render('blockquote', { title: 'Express' });
 });
 
 router.get('/buttons', function(req, res) {

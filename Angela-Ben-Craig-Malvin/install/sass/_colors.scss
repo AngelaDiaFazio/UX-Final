@@ -1,31 +1,45 @@
 .primary-color {
-  color: $primary-font;
+  background-color: $primary-color;
+  color: white;
  }
 
 .secondary-color {
-  color: $secondary-color
+  background-color: $secondary-color
  }
 
 .tertiary-color {
-  color: $tertiary-color
+  background-color: $tertiary-color
  }
 
 .quarternary-color {
-  color: $quarternary-color
+  background-color: $quarternary-color
  }
 
 .quinary-color {
-  color: $quinary-color
+  background-color: $quinary-color
  }
 
+//  .primary-dark {
+//   background-color: $primary-dark;
+//  }
+
+//  .secondary-dark {
+//   background-color: $secondary-dark;
+
+// }
+
+// .bright {
+//  background-color: $bright;
+
+// }
+
 .sg-swatch {
-  width: 100%;
-  height: 4em;
+  float: left;
+  width: 10em;
+  height: 9em;
   margin-bottom: 0.2em;
-  background-color: $primary-color;
+  margin-left: 1em;
 }
 
-.sg-label {
- line-height: 1;
-}
+
 

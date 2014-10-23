@@ -1,10 +1,12 @@
 html {
   margin: 20px 20px;
-}
+ }
 
 .center {
   text-align: center;
 }
+
+
 
 .sg-colors {
   border: 4em;
@@ -15,4 +17,11 @@ html {
 
 .sg-label {
  line-height: 1;
+}
+
+
+.sg-head{
+  border-bottom: 1px solid black;
+  margin-bottom: 1em;
+  text-align: left;
 }

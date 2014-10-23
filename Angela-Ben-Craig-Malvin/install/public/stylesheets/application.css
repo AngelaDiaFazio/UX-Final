@@ -32,7 +32,8 @@ table {
   border-spacing: 0; }
 
 h1 {
-  font-size: 3.998em; }
+  font-size: 3.998em;
+  padding-bottom: 3rem; }
 
 h2 {
   font-size: 2.827em; }
@@ -51,10 +52,6 @@ h6 {
 
 h1, h2, h3, h4, h5, h6 {
   font: helvetica, sans-serif; }
-
-p, ul li {
-  font: 'Open Sans', sans-serif;
-  font-size: 2em; }
 
 .helvetica {
   font-family: helvetica, sans-serif; }
@@ -76,10 +73,14 @@ p, ul li {
 
 .sub-title {
   font-size: 1.6rem;
-  padding-top: 1.6rem; }
+  padding-top: 1.6rem;
+  padding-bottom: 1rem; }
 
 html {
   margin: 20px 20px; }
+
+.center {
+  text-align: center; }
 
 html {
   font-size: 16px;

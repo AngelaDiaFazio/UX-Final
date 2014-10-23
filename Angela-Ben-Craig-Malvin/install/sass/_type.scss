@@ -1,5 +1,6 @@
 h1 {
   font-size: 3.998em;
+  padding-bottom: 3rem;
 }
 
 h2 {
@@ -25,11 +26,6 @@ h6 {
 
 h1, h2, h3, h4, h5, h6 {
   font: $primary-font;
-}
-
-p, ul li {
-  font: $secondary-font;
-  font-size: 2em;
 }
 
 .helvetica {
@@ -60,4 +56,5 @@ p, ul li {
 .sub-title {
   font-size: 1.6rem;
   padding-top: 1.6rem;
+  padding-bottom: 1rem;
 }

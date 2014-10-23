@@ -31,6 +31,56 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+<<<<<<< HEAD
+h1 {
+  font-size: 6.854em; }
+
+h2 {
+  font-size: 4.236em; }
+
+h3 {
+  font-size: 2.618em; }
+
+h4 {
+  font-size: 1.618em; }
+
+h5 {
+  font-size: 0.707em; }
+
+h6 {
+  font-size: 0.5em; }
+
+h1, h2, h3, h4, h5, h6 {
+  font: Helvetica, sans-serif; }
+
+html {
+  font-size: 10px;
+  font-family: Helvetica, sans-serif; }
+
+.primary-color {
+  color: Helvetica, sans-serif; }
+
+.secondary-color {
+  color: #a6a271; }
+
+.tertiary-color {
+  color: #ed5642; }
+
+.quarternary-color {
+  color: #aacaf1; }
+
+.quinary-color {
+  color: #eae49f; }
+
+.sg-swatch {
+  width: 100%;
+  height: 4em;
+  margin-bottom: 0.2em;
+  background-color: #363535; }
+
+.sg-label {
+  line-height: 1; }
+=======
 html {
   font-size: 10px;
   font-family: helvetica, sans-serif, 'Open Sans', sans-serif; }
@@ -73,3 +123,4 @@ p {
     font-style: italic; }
   .openSans-bold {
     font-weight: bold; }
+>>>>>>> 1d6f336f9f28288cc94a881904df94a5a5f122b1

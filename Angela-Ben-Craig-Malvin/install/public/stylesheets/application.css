@@ -2,35 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
 html {
   font-size: 10px;
   font-family: helvetica, sans-serif, 'Open Sans', sans-serif; }
@@ -73,3 +44,85 @@ p {
     font-style: italic; }
   .openSans-bold {
     font-weight: bold; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?-wlt9f3');
+  src: url('fonts/icomoon.eot?#iefix-wlt9f3') format('embedded-opentype'), url('fonts/icomoon.woff?-wlt9f3') format('woff'), url('fonts/icomoon.ttf?-wlt9f3') format('truetype'), url('fonts/icomoon.svg?-wlt9f3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-home:before {
+  content: "\e600"; }
+
+.icon-quill:before {
+  content: "\e602"; }
+
+.icon-image:before {
+  content: "\e604"; }
+
+.icon-camera:before {
+  content: "\e605"; }
+
+.icon-connection:before {
+  content: "\e606"; }
+
+.icon-location:before {
+  content: "\e607"; }
+
+.icon-compass:before {
+  content: "\e608"; }
+
+.icon-user:before {
+  content: "\e601"; }
+
+.icon-cog:before {
+  content: "\e603"; }
+
+.icon-thumbs-up:before {
+  content: "\e609"; }
+
+.icon-thumbs-up2:before {
+  content: "\e60a"; }
+
+.icon-googleplus:before {
+  content: "\e60b"; }
+
+.icon-facebook:before {
+  content: "\e60c"; }
+
+.icon-twitter:before {
+  content: "\e60d"; }
+
+.icon-feed:before {
+  content: "\e60e"; }
+
+.icon-vimeo2:before {
+  content: "\e60f"; }
+
+.icon-flickr:before {
+  content: "\e610"; }
+
+.icon-picassa:before {
+  content: "\e611"; }
+
+.icon-dribbble:before {
+  content: "\e612"; }
+
+.icon-github:before {
+  content: "\e613"; }
+
+.icon-wordpress:before {
+  content: "\e614"; }

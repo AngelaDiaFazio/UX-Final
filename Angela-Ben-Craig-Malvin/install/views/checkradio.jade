@@ -2,7 +2,7 @@ extends layout
 
 block content
   h1 Checklists &amp; Radio Buttons
-  p Radio Buttons:
+  h2.sub-title Radio Buttons:
     br
     input(name="radio" type="radio" class="radio")
     Tick Content
@@ -18,24 +18,24 @@ block content
     br
 
 
-  p Checklist:
+  h2.sub-title Checklist:
     br
     input(type="checkbox")
-    Tick Content
+    Tick.sub-title Content
     br
     input(type="checkbox")
-    Tick Content
+    Tick.sub-title Content
     br
     input(type="checkbox")
-    Tick Content
+    Tick.sub-title Content
     br
     input(type="checkbox")
-    Tick Content
+    Tick.sub-title Content
     br
 
   hr
 
-  pre Radio Buttons Code:
+  h2.sub-title Radio Buttons Code:
     br
     <pre>input(name="radio" type="radio" class="radio")
     br
@@ -43,10 +43,10 @@ block content
 
   hr
 
-  pre Checklist Code:
+  h2.sub-title Checklist Code:
     br
     <pre>input(type="checkbox")
     br
-    <pre>Tick Content
+    <pre>Tick Contents
 
 

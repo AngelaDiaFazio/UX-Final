@@ -1,19 +1,6 @@
-<<<<<<< HEAD
-
-
-
-=======
+//Fonts//
 $primary-font: helvetica, sans-serif;
 $secondary-font:'Open Sans', sans-serif;
-// $primary-color:
-// $secondary-color:
-// $tertiary-color:
-// $base-font-dark-color:
-// $base-font-light-color:
-// $body-light:
-// $body-dark:
-// $button:
-// $link:
 // mixin
 @mixin spacer() {
   padding: 5px 0 15px 0;
@@ -22,4 +9,14 @@ $secondary-font:'Open Sans', sans-serif;
 %aside-padding {
   padding-top: 1rem;
 }
->>>>>>> 1d6f336f9f28288cc94a881904df94a5a5f122b1
+
+//Site Colors//
+$primary-color: #363535;
+$secondary-color: #a6a271;
+$tertiary-color: #ed5642;
+$quarternary-color: #aacaf1;
+$quinary-color: #eae49f;
+
+//Button Colors//
+$primary-button: #ed5642;
+$secondary-button: #aacaf1;

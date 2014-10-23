@@ -32,6 +32,9 @@ table {
   border-spacing: 0; }
 
 html {
+  margin: 20px 20px; }
+
+html {
   font-size: 16px;
   font-family: helvetica, sans-serif, 'Open Sans', sans-serif; }
 
@@ -75,7 +78,12 @@ p, ul li {
     font-weight: bold; }
 
 .title {
-  font-size: 3rem; }
+  font-size: 3rem;
+  padding: 2rem 0; }
+
+.sub-title {
+  font-size: 1.6rem;
+  padding-top: 1.6rem; }
 
 @font-face {
   font-family: 'icomoon';

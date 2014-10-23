@@ -1,0 +1,13 @@
+@mixin swatch-format($width, $height, $margin, $color) {
+  width: $width;
+  height: $height;
+  margin-bottom: $margin;
+  color: $color;
+}
+
+
+.sg-swatch {
+  width: 100%;
+  height: 4em;
+  margin-bottom: 0.2em;
+}

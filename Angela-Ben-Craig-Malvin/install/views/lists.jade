@@ -1,40 +1,37 @@
 extends layout
 
 block content
+
   h1 Lists
+
   h2.title Ordered List
   ol
-    li
-    li
+    li This is an ordered list item
+    li This is an ordered list item
     ol
-      li
-      li
-    li
-    li
+      li This is a nested ordered list item
+      li This is a nested ordered list item
+
   h2.title Unordered List
   ul
-    li
-    li
-    li
-    li
+    li This is an unordered list item
+    li This is an unordered list item
     ul
-      li
-      li
+      li This is a nested unordered list item
+      li This is a nested unordered list item
   hr
-  h2.title Unordered List Code
+
+  h2.title Ordered List Code-Jade:
     pre ol
-      pre li
       pre li
       pre li
       pre ol
         pre li
         pre li
-      pre li
   hr
-  h2.title Ordered List Code
+
+  h2.title Unordered List Code-Jade:
     pre ul
-      pre li
-      pre li
       pre li
       pre li
       pre ul

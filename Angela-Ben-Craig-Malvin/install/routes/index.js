@@ -58,9 +58,5 @@ router.get('/paragraph', function(req, res) {
   res.render('paragraph', { title: 'Express' });
 });
 
-router.get('/unordered', function(req, res) {
-  res.render('unordered', { title: 'Express' });
-});
-
 module.exports = router;
 

@@ -1,5 +1,8 @@
-h1 Lists
-p Ordered List
+extends layout
+
+block content
+  h1 Lists
+  p Ordered List
   ol
     li
     li
@@ -8,7 +11,7 @@ p Ordered List
       li
     li
     li
-p Unordered List
+  p Unordered List
   ul
     li
     li
@@ -17,23 +20,23 @@ p Unordered List
     ul
       li
       li
-hr
-p Unordered List Code
-  pre ol
-    pre li
-    pre li
-    pre li
+  hr
+  p Unordered List Code
     pre ol
       pre li
       pre li
-    pre li
-hr
-p Ordered List Code
-  pre ul
-    pre li
-    pre li
-    pre li
-    pre li
+      pre li
+      pre ol
+        pre li
+        pre li
+      pre li
+  hr
+  p Ordered List Code
     pre ul
       pre li
       pre li
+      pre li
+      pre li
+      pre ul
+        pre li
+        pre li

@@ -2,24 +2,23 @@ extends layout
 
 block content
 
-  h1 Lists
+  h1.sg-head.list Lists
 
-  h2.title Ordered List
-  ol
-    li This is an ordered list item
-    li This is an ordered list item
-    ol
-      li This is a nested ordered list item
-      li This is a nested ordered list item
+  h2.title.sg-head Ordered List
+  ol.list
+    li.list This is an ordered list item
+    li.list This is an ordered list item
+    ol.list
+      li.list This is a nested ordered list item
+      li.list This is a nested ordered list item
 
-  h2.title Unordered List
-  ul
+  h2.title.sg-head.list Unordered List
+  ul.list
     li This is an unordered list item
     li This is an unordered list item
     ul
       li This is a nested unordered list item
       li This is a nested unordered list item
-  hr
 
   h2.title Ordered List Code-Jade:
   pre ol

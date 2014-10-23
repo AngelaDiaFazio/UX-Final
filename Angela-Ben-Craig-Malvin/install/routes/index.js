@@ -22,6 +22,10 @@ router.get('/colors', function(req, res) {
   res.render('colors', { title: 'Express' });
 });
 
+router.get('/fonts', function(req, res) {
+  res.render('fonts', { title: 'Express' });
+});
+
 router.get('/error', function(req, res) {
   res.render('error', { title: 'Express' });
 });
@@ -46,16 +50,12 @@ router.get('/inputfields', function(req, res) {
   res.render('inputfields', { title: 'Express' });
 });
 
-router.get('/ordered', function(req, res) {
-  res.render('ordered', { title: 'Express' });
+router.get('/lists', function(req, res) {
+  res.render('lists', { title: 'Express' });
 });
 
 router.get('/paragraph', function(req, res) {
   res.render('paragraph', { title: 'Express' });
-});
-
-router.get('/unordered', function(req, res) {
-  res.render('unordered', { title: 'Express' });
 });
 
 module.exports = router;

@@ -1,15 +1,6 @@
-$font-stack: Optima, sans-serif;
-$font-base:"Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-//Colors
-$primary-color: #2EE0AE; //bright green
-$secondary-color: #C7E2C3; //pastel green
-$tertiary-color: #664C4B; //walnut
-$base-font-dark-color: #434545; // deep grey
-$base-font-light-color: #FAFEFF; // off white
-$body-light: #F8F4C7; //beige
-$body-dark: #E3D0A6; //camel
-$button: #FFF560; // yellow
-$link: #664C4B; //walnut
+//Fonts//
+$primary-font: helvetica, sans-serif;
+$secondary-font:'Open Sans', sans-serif;
 // mixin
 @mixin spacer() {
   padding: 5px 0 15px 0;
@@ -18,3 +9,14 @@ $link: #664C4B; //walnut
 %aside-padding {
   padding-top: 1rem;
 }
+
+//Site Colors//
+$primary-color: #363535;
+$secondary-color: #a6a271;
+$tertiary-color: #ed5642;
+$quarternary-color: #aacaf1;
+$quinary-color: #eae49f;
+
+//Button Colors//
+$primary-button: #ed5642;
+$secondary-button: #aacaf1;

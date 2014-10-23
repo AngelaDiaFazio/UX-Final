@@ -1,17 +1,63 @@
 h1 {
-  font: 100% $font-stack;
-  color: $primary-color;
-  p {
-    color: $base-font-dark-color;
-    font-family: $font-base;
+  font-size: 3.998em;
+}
+
+h2 {
+  font-size: 2.827em;
+}
+
+h3 {
+  font-size: 1.999em;
+}
+
+h4 {
+  font-size: 1.414em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.707em;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font: $primary-font;
+}
+
+p, ul li {
+  font: $secondary-font;
+  font-size: 2em;
+}
+
+.helvetica {
+  font-family: $primary-font;
+  &-italic {
+    font-style: italic;
+  }
+  &-bold {
+    font-weight: bold;
   }
 }
-a {
-  color: $primary-color;
+
+.openSans {
+  font-family: $secondary-font;
+  &-italic {
+    font-style: italic;
+  }
+  &-bold {
+    font-weight: bold;
+  }
 }
-.by-line {
-  font-size: 1.3em;
-  color: $tertiary-color;
-  margin-left: 10px;
-  padding: 1rem 0 .5rem 0;
+
+.title {
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+
+.sub-title {
+  font-size: 1.6rem;
+  padding-top: 1.6rem;
 }

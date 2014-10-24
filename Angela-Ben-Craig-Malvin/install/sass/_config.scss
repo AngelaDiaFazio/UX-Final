@@ -2,13 +2,7 @@
 $primary-font: helvetica, sans-serif;
 $secondary-font:'Open Sans', sans-serif;
 // mixin
-@mixin spacer() {
-  padding: 5px 0 15px 0;
-}
-// placeholder
-%aside-padding {
-  padding-top: 1rem;
-}
+
 
 //Site Colors//
 $primary-color: #363535;

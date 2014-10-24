@@ -3,16 +3,13 @@ h1 {
   padding-bottom: 3rem; }
 
 h2 {
-  font-size: 2.827rem;
-  padding-bottom: 2rem; }
+  font-size: 2.827rem; }
 
 h3 {
-  font-size: 1.999rem;
-  padding-bottom: 1rem; }
+  font-size: 1.999rem; }
 
 h4 {
-  font-size: 1.414rem;
-  padding-bottom: 1rem; }
+  font-size: 1.414rem; }
 
 h5 {
   font-size: 1rem;
@@ -27,7 +24,8 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
 
 .helvetica {
   font-family: helvetica, sans-serif; }
@@ -52,14 +50,29 @@ a {
   padding-top: 1.6rem;
   padding-bottom: 0.5rem; }
 
+.text {
+  font: helvetica, sans-serif;
+  font-size: 1rem;
+  padding: 1rem; }
+
 .list {
   font-size: 4rem;
   margin: 1rem; }
 
 .index {
-  font-size: 2rem;
-  text-align: left;
-  height: 3rem; }
+  font: helvetica, sans-serif;
+  font-size: 1rem;
+  padding: 1rem;
+  color: black; }
+
+.sg-swatch {
+  float: left;
+  width: 10em;
+  height: 9em;
+  margin-bottom: 0.2em;
+  margin-left: 1em;
+  text-decoration: none;
+  list-style-type: none; }
 
 html {
   margin: 20px 20px; }
@@ -86,6 +99,9 @@ html {
   margin-bottom: 1em;
   text-align: left; }
 
+.layout {
+  margin: 1em, 1em, 1em, 1em; }
+
 html {
   font-size: 16px;
   font-family: helvetica, sans-serif, 'Open Sans', sans-serif;
@@ -107,12 +123,38 @@ html {
 .quinary-color {
   background-color: #eae49f; }
 
-.sg-swatch {
-  float: left;
-  width: 10em;
-  height: 9em;
-  margin-bottom: 0.2em;
-  margin-left: 1em; }
+.jade {
+  background: #bfbebd; }
+
+button {
+  width: 15rem;
+  height: 3rem;
+  background-color: #ed5642;
+  font-size: 1.5rem;
+  font-family: inherit;
+  border-style: none;
+  color: white;
+  outline: 0; }
+
+button:hover {
+  color: #363535; }
+
+button.secondary {
+  background-color: #aacaf1; }
+
+.astext {
+  color: black;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-style: italic; }
+
+.astext:hover {
+  color: #aacaf1; }
+
+li {
+  list-style-type: none; }
 
 img {
   display: block;

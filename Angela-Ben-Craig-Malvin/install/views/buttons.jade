@@ -1,5 +1,69 @@
 extends layout
 
 block content
+
   a.goback(href="/") Go Back
-  h1.title.sg-head Buttons
+
+  h1.sg-head Buttons
+  h2 Primary Button
+  br
+  button (Submit/Enter)
+  br
+  br
+  h2 Secondary Button
+  br
+  button.secondary NEXT
+  br
+  br
+  h2 Text Button
+  br
+  button.astext Click Me!
+  br
+  hr
+  br
+  h3 Button Jade:
+  br
+  div.jade.text
+    pre button (Submit/Enter)
+    br
+    pre button.secondary NEXT
+    br
+    pre button.astext Click Me!
+    br
+    br
+  h3 Button CSS:
+  br
+  div.jade.text
+    pre button {
+    pre width: 15rem;
+    pre height: 3rem;
+    pre background-color: $tertiary-color ;
+    pre font-size: 1.5rem;
+    pre font-family: inherit;
+    pre border-style: none;
+    pre color: white;
+    pre outline: 0;
+    pre }
+    br
+    pre button:hover {
+    pre color: $primary-color;
+    pre }
+    br
+    pre button.secondary {
+    pre background-color: $quarternary-color ;
+    pre }
+    br
+    pre .astext {
+    pre color: black;
+    pre background:none;
+    pre border:none;
+    pre margin:0;
+    pre padding:0;
+    pre font-style: italic;
+    pre }
+    br
+    pre .astext:hover {
+    pre color: $quarternary-color;
+    pre }
+
+

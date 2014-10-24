@@ -5,17 +5,16 @@ h1 {
 
 h2 {
   font-size: 2.827rem;
-  padding-bottom: 2rem;
+
 }
 
 h3 {
   font-size: 1.999rem;
-  padding-bottom: 1rem;
+
 }
 
 h4 {
   font-size: 1.414rem;
-  padding-bottom: 1rem;
 }
 
 h5 {
@@ -36,7 +35,12 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
+
+  color: black;
+
 }
+
+
 
 .helvetica {
   font-family: $primary-font;
@@ -69,6 +73,13 @@ a {
   padding-bottom: 0.5rem;
 }
 
+.text {
+  font: $primary-font;
+  font-size: 1rem;
+  padding: 1rem;
+
+}
+
 .list {
   font-size: 4rem;
   margin: 1rem;
@@ -76,8 +87,20 @@ a {
 }
 
 .index {
-  font-size: 2rem;
-  text-align: left;
-  height: 3rem;
+  font: $primary-font;
+  font-size: 1rem;
+  padding: 1rem;
+  color: black;
 
+
+}
+
+.sg-swatch {
+  float: left;
+  width: 10em;
+  height: 9em;
+  margin-bottom: 0.2em;
+  margin-left: 1em;
+  text-decoration: none;
+  list-style-type: none;
 }
